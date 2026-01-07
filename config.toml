@@ -81,3 +81,9 @@ arch = "arm64-v8a"
 [IconPackStudio]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
+
+[Infinity+]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/docile-alligator/infinity-for-reddit-patreon-github-version/"
+included-patches = "'Unlock subscription'"
+exclusive-patches = true
+patcher-args = "-e 'Spoof client' -Oclient-id=icPCmRrVzG9AnN3nrFDjbQ"
